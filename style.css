@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url('images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+
+
+::selection{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: hsl(214, 100%, 50%);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+.header{
+    padding: 50px 70px;
+}
+
+.logo{
+    width: 180px;
+}
+
+/* hero section */
+
+.hero{
+    width: 90%;
+    margin: 40px auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.hero-image{
+    width:55%;
+}
+
+.content{
+    width:40%;
+    color:white;
+}
+
+.content a{
+    display:inline-block;
+    margin-top:20px;
+    background:white;
+    color:hsl(257,40%,49%);
+    padding:15px 65px;
+    border-radius:50px;
+    text-decoration:none;
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+}
+
+.content a:hover{
+    background: #b44fb8;
+    color:white;
+    transition:all .3s ease-in-out;
+}
+
+
+/* footer */
+
+.social-icons{
+    width: 90%;
+    margin: 0 auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+.social-icons i{
+    color:white;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px;
+
+}
+
+.social-icons i:hover{
+    color: #b44fb8;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px;
+    transition:all .3s ease-in-out;
+    border: 1px solid #b44fb8;
+}
+
+.footer{
+    width: 100%;
+    padding: 20px 0;
+    text-align:center;
+    color:white;
+    font-size:14px;
+    position:relative;
+    left:40%;
+}
